@@ -66,7 +66,50 @@ The project combines both tools to provide practical experience in network enume
 |       Target VM         |
 +-------------------------+
  Installation Procedure
+## Methodology
 
+In this project, different Nmap scanning techniques were practiced to understand network behavior and service identification. The scanning process included:
+
+- Host Discovery  
+- Open Port Detection  
+- Service Version Detection  
+- Operating System Detection  
+- TCP/UDP Scanning  
+- Basic Vulnerability Scanning  
+
+### Commands Used
+
+```bash
+nmap <IP Address>
+nmap -sV <IP Address>
+nmap -O <IP Address>
+nmap -A <IP Address>
+nmap -sS <IP Address>
+nmap -sU <IP Address>
+nmap --script vuln <IP Address>
+````
+
+## Skills Learned
+
+Through this project, the following skills were learned:
+
+* Nmap Fundamentals
+* Network Scanning
+* Port Enumeration
+* Service Enumeration
+* Operating System Detection
+* TCP/UDP Scanning
+* Basic Vulnerability Assessment
+* Linux Commands
+* Cybersecurity Fundamentals
+
+## Challenges Faced
+
+During this learning process, challenges were encountered in understanding scan results, configuring the virtual lab environment, and learning the purpose of different Nmap scan options. These challenges were overcome through continuous practice and experimentation.
+
+## Outcome
+
+This project improved practical knowledge of network scanning and reconnaissance techniques. Different Nmap scans were performed to identify ports, running services, and system information in a safe virtual environment.
 ### Install Wireshark in Ubuntu/Kali Linux
 
 ```bash
